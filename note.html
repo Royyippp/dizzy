@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        font-family:verdana;
+    }
+    #abc{
+        width:100%;
+        height:100vh;
+        background-image: url('background.jpg');
+        background-size: cover;
+    }
+    nav{
+        width: 100%;
+        height: 50px;
+        background-color: #0005;
+        line-height: 50px;
+    }
+    nav ul{
+        margin-right: 30px;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        transition: 0.5s all;
+    }
+    nav ul li:hover{
+        background-color:#088;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 30px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    h1{
+        margin-top: 20px;
+        font-size: 60px;
+        font-weight: 500;
+        color: #fff;
+        text-shadow: #088;
+
+        position: relative;
+        margin: 5% 7% 2%;
+    }
+
+    .content{
+        margin: 0 7%;
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        text-shadow: #088;
+        background-color: #0005;
+        padding: 10px;
+        border-radius: 10px;  
+        list-style-type: none;
+
+        width: 30%;
+    }
+
+    .content a{
+        color: #088;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div id="abc">
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="note.html">Notes</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="question.html">Question</a></li>
+            </ul>
+        </nav>
+        <h1>Notes</h1>
+        <div class="chapters">
+        <ul>
+            <li class="content"><a href="heat.html">Heat and Gases</a></li>
+            <li class="content"><a href="force.html">Force and Motion</a></li>
+            <li class="content"><a href="light.html">Light and Wave</a></li>
+            <li class="content"><a href="em.html">Electromagnetic Wave</a></li>
+            <li class="content"><a href="radio.html">Radioactivity</a></li>
+            <li class="content"><a href="atomic.html">Atomic World</a></li>
+            <li class="content"><a href="energy.html">Energy and Use of Energy</a></li>
+        </ul>
+        </div>
+    </div>
+
+</body>
+</html>
